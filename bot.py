@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters, CommandHandler
 
 # --- আপনার দেওয়া তথ্য ---
-GEMINI_API_KEY = "AIzaSyBkuCTFasgDnIcHJ5Yhojttha_vsoM6jU4"
+GEMINI_API_KEY = "AIzaSyAcugRqItPPGaYlwIOXmtf5YCa_zB-CWRs"
 TELEGRAM_BOT_TOKEN = "8649911515:AAFTvgxNkLVHThj2vyDn9HtkSYfHzKBbUEQ"
 
 # Gemini কনফিগারেশন
@@ -56,3 +56,4 @@ if __name__ == '__main__':
     
     print("বটটি সফলভাবে রান হয়েছে... এখন টেলিগ্রামে মেসেজ দিয়ে পরীক্ষা করুন।")
     application.run_polling()
+
